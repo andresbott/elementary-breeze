@@ -1,8 +1,4 @@
-# nfpm example config file
-#
-# check https://nfpm.goreleaser.com/configuration for detailed usage
-#
-name: "elementary-breeze-dev"
+name: "elementary-breeze-fonts"
 arch: "all"
 platform: "linux"
 version: "0.1.0"
@@ -24,15 +20,17 @@ priority: "optional"
 #- not-bar
 maintainer: "Andres Bott <contact@andresbott.com>"
 description: |
-  Elementary Os based icons for KDE 
+  Collection of different fonts 
 
 #vendor: "FooBarCorp"
 #homepage: "http://example.com"
-license: "GPL3"
+license: "Mixed"
 #changelog: "changelog.yaml"
 contents:
 - src: ./icons
   dst: /usr/share/icons/elementary-breeze-dev
+- src: ./fonts
+  dst: /usr/share/fonts/elementary-breeze
 #- src: ./bar
 #  dst: /usr/local/bin/bar
 #- src: ./foobar.conf

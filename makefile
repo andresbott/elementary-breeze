@@ -10,5 +10,8 @@ default: help;
 build: ## build the debian package
 	@nfpm package -f nfpm.yaml -p deb
 
+clean: ## clean
+	@rm *.deb
+
 help: ## Show this help
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST)  | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m·%-20s\033[0m %s\n", $$1, $$2}'
