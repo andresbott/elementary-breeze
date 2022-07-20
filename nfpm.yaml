@@ -27,10 +27,26 @@ description: |
 license: "Mixed"
 #changelog: "changelog.yaml"
 contents:
-- src: ./icons
-  dst: /usr/share/icons/elementary-breeze-dev
+# color schemes
+- src: ./color-schemes/ElementaryBreeze.colors
+  dst: /usr/share/QtCurve/ElementaryBreeze.colors
+
+# fonts
 - src: ./fonts
   dst: /usr/share/fonts/elementary-breeze
+
+# icons
+- src: ./icons
+  dst: /usr/share/icons/elementary-breeze-dev
+
+# qtcurves
+- src: ./qtcurve/Elementary-Breeze.qtcurve
+  dst: /usr/share/QtCurve/Elementary-Breeze.qtcurve
+
+# gtk themese
+- src: ./themes/victory-gtk-theme-2021-12
+  dst: /usr/share/themes/victory-gtk-theme-2021-12
+
 #- src: ./bar
 #  dst: /usr/local/bin/bar
 #- src: ./foobar.conf

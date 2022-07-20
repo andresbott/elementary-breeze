@@ -1,0 +1,21 @@
+AdineKirnberg-Script font is a German Art Nouveau script font containing a full alphabet and most punctuation. It is a beuatiful, rounded script with very striking caps and relatively small lower-case characters. It is modeled on a face called Romana. In addition to the full alphabetic characters, there are alternate drawings of certain characters, as follows:
+
+Character -- -- ASCII code
+
+upper-case G -- 237
+upper-case S -- 234
+upper-case T -- 230
+upper-case W -- 227
+
+lower-case b -- 186
+lower-case d -- 182
+lower-case f -- 196
+lower-case h -- 250
+lower-case l -- 194
+lower-case r -- 168
+lower-case s -- 167
+
+
+AdineKirnberg-Script is a SHAREWARE font copyrighted by David Rakowski, 1991. All Rights Reserved. If you like and use this font, you should make a TAX-DEDUCTIBLE contribution to the Columbia University Music Department of $7.49 cheap. Please send your check, made out to Columbia University, to Cynthia Lemiesz, 703 Dodge Hall, Columbia University, New York, NY 10027. For a laugh, you can enclose a postcard of pictures enclosed within words and an inscribed message, "It's not that way, it's over here!" The money goes to help pay for performances of music written by Columbia University students
+
+AdineKirnberg-Script is another one of those fonts you didn't know you couldn't do without until you had it from Insect-Bytes, a place in central Massachusetts where touch-tone dialing is less than a year old.
