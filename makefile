@@ -10,6 +10,9 @@ default: help;
 build: ## build the debian package
 	@nfpm package -f nfpm.yaml -p deb
 
+publish: ## publish the release to github
+	@scripts/publish.sh
+
 clean: ## clean
 	@rm *.deb
 
