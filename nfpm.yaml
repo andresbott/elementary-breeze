@@ -1,7 +1,7 @@
 name: "elementary-breeze"
 arch: "all"
 platform: "linux"
-version: "0.1.0"
+version: "0.1.1"
 section: "default"
 priority: "optional"
 #replaces:
@@ -11,16 +11,16 @@ priority: "optional"
 #depends:
 #- foo
 #- bar
-#recommends:
-#- whatever
-#suggests:
-#- something-else
+recommends:
+- kde-style-qtcurve-qt5
+suggests:
+- gtk2-engines-qtcurve
 #conflicts:
 #- not-foo
 #- not-bar
 maintainer: "Andres Bott <contact@andresbott.com>"
 description: |
-  Collection of different fonts 
+  Collection of icons, fonts, colors and styles to be used in KDE5
 
 #vendor: "FooBarCorp"
 #homepage: "http://example.com"
