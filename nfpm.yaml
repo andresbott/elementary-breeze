@@ -1,7 +1,7 @@
 name: "elementary-breeze"
 arch: "all"
 platform: "linux"
-version: "0.1.3"
+version: "0.1.4"
 section: "default"
 priority: "optional"
 #replaces:
@@ -34,7 +34,11 @@ contents:
 - src: ./konsole/Elementary-breeze.colorscheme
   dst: /usr/share/konsole/Elementary-breeze.colorscheme
 - src: ./konsole/Elementary-breeze.profile
-  dst: /usr/share/konsole/Elementargit br y-breeze.profile
+  dst: /usr/share/konsole/Elementary-breeze.profile
+- src: ./konsole/Dracula.colorscheme
+  dst: /usr/share/konsole/Dracula.colorscheme
+- src: ./konsole/ProdSystem.profile
+  dst: /usr/share/konsole/ProdSystem.profile
 
 # fonts
 - src: ./fonts

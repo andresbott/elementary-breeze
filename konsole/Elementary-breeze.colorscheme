@@ -17,13 +17,13 @@ Color=52,52,52
 Color=112,144,128
 
 [Color1]
-Color=156,76,76
+Color=212,107,107
 
 [Color1Faint]
-Color=140,68,68
+Color=150,71,71
 
 [Color1Intense]
-Color=223,140,140
+Color=220,127,127
 
 [Color2]
 Color=96,180,138
@@ -35,7 +35,7 @@ Color=87,163,124
 Color=114,213,163
 
 [Color3]
-Color=223,175,143
+Color=223,183,133
 
 [Color3Faint]
 Color=170,133,111
@@ -62,7 +62,7 @@ Color=154,98,137
 Color=236,147,211
 
 [Color6]
-Color=140,208,211
+Color=121,187,211
 
 [Color6Faint]
 Color=107,159,161
@@ -71,7 +71,7 @@ Color=107,159,161
 Color=147,224,227
 
 [Color7]
-Color=220,220,204
+Color=235,235,220
 
 [Color7Faint]
 Color=149,149,139
@@ -80,7 +80,7 @@ Color=149,149,139
 Color=255,255,255
 
 [Foreground]
-Color=220,220,204
+Color=220,218,210
 
 [ForegroundFaint]
 Color=220,220,204
@@ -89,12 +89,6 @@ Color=220,220,204
 Color=220,220,204
 
 [General]
-Anchor=0.5,0.5
-Blur=false
-ColorRandomization=false
-Description=Elementary Breeze
-FillStyle=Tile
+Description=PastelBrillante
 Opacity=1
 Wallpaper=
-WallpaperFlipType=NoFlip
-WallpaperOpacity=1
