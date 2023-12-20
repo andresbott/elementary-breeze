@@ -1,7 +1,7 @@
 name: "elementary-breeze"
 arch: "all"
 platform: "linux"
-version: "0.1.1"
+version: "0.1.3"
 section: "default"
 priority: "optional"
 #replaces:
@@ -22,14 +22,19 @@ maintainer: "Andres Bott <contact@andresbott.com>"
 description: |
   Collection of icons, fonts, colors and styles to be used in KDE5
 
-#vendor: "FooBarCorp"
-#homepage: "http://example.com"
 license: "Mixed"
 #changelog: "changelog.yaml"
+
 contents:
 # color schemes
 - src: ./color-schemes/ElementaryBreeze.colors
   dst: /usr/share/QtCurve/ElementaryBreeze.colors
+
+# Konsoloe colors
+- src: ./konsole/Elementary-breeze.colorscheme
+  dst: /usr/share/konsole/Elementary-breeze.colorscheme
+- src: ./konsole/Elementary-breeze.profile
+  dst: /usr/share/konsole/Elementargit br y-breeze.profile
 
 # fonts
 - src: ./fonts
@@ -47,20 +52,9 @@ contents:
 - src: ./themes/victory-gtk-theme-2021-12
   dst: /usr/share/themes/victory-gtk-theme-2021-12
 
-#- src: ./bar
-#  dst: /usr/local/bin/bar
-#- src: ./foobar.conf
-#  dst: /etc/foobar.conf
-#  type: config
-#- src: /usr/local/bin/foo
-#  dst: /sbin/foo
-#  type: symlink
-overrides:
-#  rpm:
+# not used at the moment
+#overrides:
+#  deb:
 #    scripts:
-#      preinstall: ./scripts/preinstall.sh
-#      postremove: ./scripts/postremove.sh
-  deb:
-    scripts:
-      postinstall: ./scripts/postinstall.sh
+#      postinstall: ./scripts/postinstall.sh
 #      preremove: ./scripts/preremove.sh
